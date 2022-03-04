@@ -1,3 +1,6 @@
+// Arrow Functions Exercise
+// In this exercise, you’ll refactor some ES5 code into ES2015
+
 // ES5 Map Callback
 function double(arr){
     return arr.map(function(val) {
@@ -6,6 +9,7 @@ function double(arr){
 }
 
 // ES2015 Arrow Functions Shorthand
+// Write an ES2015 Version
 const double = arr.map(val => val * 2);
 
 
